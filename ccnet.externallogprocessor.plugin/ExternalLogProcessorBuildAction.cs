@@ -39,6 +39,13 @@ namespace ccnet.externallogprocessor.plugin
             = string.Empty;
 
         /// <summary>
+        /// Gets or sets the arguments to pass to the external log processor application.
+        /// </summary>
+        [ReflectorProperty("arguments", Required = false)]
+        public string Arguments { get; set; }
+            = string.Empty;
+
+        /// <summary>
         /// Grabs the associated log then executes the specified External
         /// Program passing the log as Standard Input. The Standard Output
         /// is then pushed back as an HtmlFragment.
@@ -56,6 +63,7 @@ namespace ccnet.externallogprocessor.plugin
                 using (Process externalProgram = new Process())
                 {
                     externalProgram.StartInfo.FileName = ExternalLogProcessor;
+                    externalProgram.StartInfo.Arguments = Arguments;
                     externalProgram.StartInfo.UseShellExecute = false;
                     externalProgram.StartInfo.RedirectStandardInput = true;
                     externalProgram.StartInfo.RedirectStandardOutput = true;

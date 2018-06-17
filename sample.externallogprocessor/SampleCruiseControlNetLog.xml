@@ -1,0 +1,25 @@
+<cruisecontrol project="TestBuild">
+  <integrationProperties>
+    <CCNetArtifactDirectory>C:\Builds\TestBuild\Artifacts</CCNetArtifactDirectory>
+    <CCNetBuildCondition>IfModificationExists</CCNetBuildCondition>
+    <CCNetBuildDate>2018-06-16</CCNetBuildDate>
+    <CCNetBuildTime>14:09:34</CCNetBuildTime>
+    <CCNetFailureUsers />
+    <CCNetIntegrationStatus>Success</CCNetIntegrationStatus>
+    <CCNetLabel>My Cool Test Build Label6174</CCNetLabel>
+    <CCNetLastIntegrationStatus>Success</CCNetLastIntegrationStatus>
+    <CCNetListenerFile>C:\Builds\TestBuild\Artifacts\TestBuild_ListenFile.xml</CCNetListenerFile>
+    <CCNetModifyingUsers>
+      <user>aceo</user>
+    </CCNetModifyingUsers>
+    <CCNetNumericLabel>6174</CCNetNumericLabel>
+    <CCNetProject>TestBuild</CCNetProject>
+    <CCNetProjectUrl>http://localhost/ccnet/server/local/project/TestBuild/ViewProjectReport.aspx</CCNetProjectUrl>
+    <CCNetRequestSource>IntervalTrigger</CCNetRequestSource>
+    <CCNetWorkingDirectory>C:\Builds\TestBuild\WorkingDirectory</CCNetWorkingDirectory>
+    <LastChangeNumber>73519</LastChangeNumber>
+    <LastIntegrationStatus>Success</LastIntegrationStatus>
+    <LastSuccessfulIntegrationLabel>My Cool Test Build Label6174</LastSuccessfulIntegrationLabel>
+    <LastModificationDate>6/16/2018 11:58:41 AM</LastModificationDate>
+  </integrationProperties>
+</cruisecontrol>

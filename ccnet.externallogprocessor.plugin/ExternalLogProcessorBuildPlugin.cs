@@ -46,12 +46,20 @@ namespace ccnet.externallogprocessor.plugin
         public string ExternalLogProcessor { get; set; }
             = string.Empty;
 
+        /// <summary>
+        /// Gets or sets the arguments to pass to the external log processor application.
+        /// </summary>
+        [ReflectorProperty("arguments", Required = false)]
+        public string Arguments { get; set; }
+            = string.Empty;
+
         public override INamedAction[] NamedActions
         {
             get
             {
                 ExternalLogProcessorBuildAction action = (ExternalLogProcessorBuildAction)actionInstantiator.InstantiateAction(typeof(ExternalLogProcessorBuildAction));
                 action.ExternalLogProcessor = ExternalLogProcessor;
+                action.Arguments = Arguments;
                 return new INamedAction[] { new ImmutableNamedAction(ActionName, action) };
             }
         }
