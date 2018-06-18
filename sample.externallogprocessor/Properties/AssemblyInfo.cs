@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("sample.externallogprocessor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A Sample External Log Processor for ccnet.externallogprocessor.plugin")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Ace Olszowka")]
 [assembly: AssemblyProduct("sample.externallogprocessor")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © Ace Olszowka 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
