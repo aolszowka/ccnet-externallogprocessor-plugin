@@ -32,6 +32,8 @@ Take a peek at the [Sample.dashboard.config](sample.externallogprocessor/Sample.
 
 Once you've done the above navigate to a build and you will notice on the left hand navigation menu a new link is available, named the same as the ```description``` above. Clicking on it will execute the program and return you the output. In this screenshot the ```sample.externalprocessor.exe``` is being ran.
 
+![Sample of External Processor In Action](https://github.com/aolszowka/ccnet-externallogprocessor-plugin/blob/master/sample.externallogprocessor/SampleExternalLogProcessorInAction.png)
+
 Futhermore you'll notice that a new aspx action has been assigned, the same as the ```actionName``` defined in the configuration.
 
 ### Common Issues
